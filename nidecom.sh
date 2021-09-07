@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ####################################################################
-
-# Decompila todos arquivos *.apk da pasta de execução com o apktool.
+#
+# Decompile all *.apk files from the run folder with apktool.
 # 04/09/2021 - Nipe
 ####################################################################
 
@@ -14,6 +14,6 @@ NC="\033[0m"
 apks=$(find . -type f -name \*.apk)
 
 echo "$apks" | while read line;do
-	echo -e "${PURPLE}[$(date '+%R')] - Decompilando${GRAY} $line ${NC}"
+	echo -e "${PURPLE}[$(date '+%R')] - Decompiling${GRAY} $line ${NC}"
 	apktool d "$line"
 done
