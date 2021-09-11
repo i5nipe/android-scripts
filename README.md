@@ -15,6 +15,7 @@ Automation for *PASSIVE* analysis of Android communication.
 ---
 >### ☕ [nidoap.sh](https://github.com/i5nipe/android-scripts/blob/master/nidoap.sh)
 Read a list of package names and open the page of Play Store to download the App.
+- Example of use: `./nidoap.sh packages.txt`
 
 ---
 >### ☕ [nipak.sh](https://github.com/i5nipe/android-scripts/blob/master/nipak.sh)
