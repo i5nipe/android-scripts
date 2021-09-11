@@ -1,17 +1,18 @@
 # Android scripts
-Some simple scripts for android Pentest or Bug Bounty
+Some extremely simple scripts that I use during bug bounty hunting in Android Apps.
 
->## ☕ nidecom.sh
+---
+>### ☕ [nidecom.sh](https://github.com/i5nipe/android-scripts/blob/master/nidecom.sh)
 Decompile all *.apk files from the run folder with apktool.
 
 ---
->## ☕ niadump.sh
-Automation for PASSIVE analysis of android communication.
+>### ☕ [niadump.sh](https://github.com/i5nipe/android-scripts/blob/master/niadump.sh)
+Automation for *PASSIVE* analysis of Android communication.
 
 ---
->## ☕ nidoap.sh
+>### ☕ [nidoap.sh](https://github.com/i5nipe/android-scripts/blob/master/nidoap.sh)
 Read a list of package names and open the Play Store to download the App.
 
 ---
->## ☕ nipak.sh
-Extract apks from Apps downloaded from Google Play Store
+>### ☕ [nipak.sh](https://github.com/i5nipe/android-scripts/blob/master/nipak.sh)
+Extract APKs from Apps downloaded from Google Play Store.
