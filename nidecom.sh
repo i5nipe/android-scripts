@@ -2,8 +2,8 @@
 
 ####################################################################
 #
-# Decompile all *.apk files from the run folder with apktool.
-# 04/09/2021 - Nipe
+# Decompile all *.apk files from the current folder with apktool.
+# 09/04/2021 - Nipe
 ####################################################################
 
 PURPLE="\033[01;35m"
