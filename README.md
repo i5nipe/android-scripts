@@ -3,7 +3,7 @@ Some extremely simple scripts that I use during bug bounty hunting in Android Ap
 
 ---
 >### ☕ [nidecom.sh](https://github.com/i5nipe/android-scripts/blob/master/nidecom.sh)
-Decompile all *.apk files from the run folder with apktool.
+Decompile all *.apk files from the current folder with apktool.
 
 ---
 >### ☕ [niadump.sh](https://github.com/i5nipe/android-scripts/blob/master/niadump.sh)
