@@ -13,7 +13,7 @@ if [ "$#" -eq 0 ] || [ "$1" = "-h" ]; then
         echo -e "${PURPLE}Nidoap${NC} - Read a list of package names and open the page on Google ${GRAY}Play Store.${NC}"
         echo "Usage: nidoap [package | file with packages]"
         echo "Ex: nidoap com.instagram.android"
-        return
+        exit
 fi
 
 
