@@ -1,5 +1,10 @@
 #!/bin/bash
-# Extract APK file from Apps installed in the device.       
+# Extract APK file from Apps installed in the device.
+
+PURPLE="\033[01;35m"
+GRAY="\033[1;37m"
+NC="\033[0m"
+
 
 if [ "$#" -eq 0 ] || [ "$1" = "-h" ]; then
 
