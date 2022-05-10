@@ -1,15 +1,21 @@
 #!/bin/bash
-############################################################################
 # Read a list of package names and open the page of Play Store to download the App.
-#
-# 09/07/2021 - Nipe
-############################################################################
+
 
 PURPLE="\033[01;35m"
 GRAY="\033[1;37m"
 NC="\033[0m"
 
 list="$1"
+
+if [ "$#" -eq 0 ] || [ "$1" = "-h" ]; then
+
+        echo -e "${PURPLE}Nidoap${NC} - Read a list of package names and open the page on Google ${GRAY}Play Store.${NC}"
+        echo "Usage: nidoap [package | file with packages]"
+        echo "Ex: nidoap com.instagram.android"
+        return
+fi
+
 
 # Check if file exists
 if test -f "$1"; then
