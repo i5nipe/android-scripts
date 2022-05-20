@@ -11,7 +11,7 @@ Extract APK file from Apps installed in the device.
 ---
 >### ☕ [nisig.sh](https://github.com/i5nipe/android-scripts/blob/master/scripts/nisig.sh)
 Sign APK files.
-- Example of use: `./nisig.sh com.instagram.android`
+- Example of use: `./nisig.sh modApp.apk`
 - Dependencies: `jarsigner`, `keytool`
 
 ---
