@@ -1,8 +1,6 @@
 #!/bin/bash
-#
 # Automation for PASSIVE analysis of android communication.
 # Need tcpdump binary in "/data/local/tmp/tcpdump".
-#
 
 PURPLE="\033[01;35m"
 GRAY="\033[1;37m"
