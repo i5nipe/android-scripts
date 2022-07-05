@@ -15,6 +15,11 @@ Sign APK files.
 - Dependencies: `jarsigner`, `keytool`
 
 ---
+>### ☕ [insfri.sh](https://github.com/i5nipe/android-scripts/blob/master/scripts/insfri.sh)
+Download and start frida server on the device.
+- Dependencies: `xz-utils`, `frida`
+
+---
 >### ☕ [nidoap.sh](https://github.com/i5nipe/android-scripts/blob/master/scripts/nidoap.sh)
 Read a list of package names and open the page of Play Store to download the App.
 - Example of use: `./nidoap.sh packages.txt` or `./nidoap.sh com.instagram.android`
