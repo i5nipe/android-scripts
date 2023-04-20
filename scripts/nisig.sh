@@ -12,8 +12,7 @@ else
         read pass
 
         echo "Generating signature file..."
-        keytool -genkey -keystore $name.jks -storepass $pass -storetype jks -alias $name -keyalg rsa -dname "CN=NIPE" -
-        keypass $pass
+        keytool -genkey -keystore $name.jks -storepass $pass -storetype jks -alias $name -keyalg rsa -dname "CN=NIPE" -keypass $pass
 
         echo "Signing apk"
         jarsigner -keystore $name.jks -storepass $pass -storetype jks -sigalg sha1withrsa -digestalg sha1 $1 $name
