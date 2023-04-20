@@ -8,7 +8,7 @@ else
         echo "Name of the file:"
         read name
 
-        echo "Password:"
+        echo "Password(min: 6 caracters):"
         read pass
 
         echo "Generating signature file..."
